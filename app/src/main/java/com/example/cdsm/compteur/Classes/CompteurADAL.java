@@ -34,4 +34,9 @@ public class CompteurADAL
         else
             System.out.println("La lampe est éteinte.");
     }
+
+    public Digit[] getCompteur()
+    {
+        return UnCptADSL.getTableauDigit();
+    }
 }

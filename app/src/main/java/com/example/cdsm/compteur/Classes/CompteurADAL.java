@@ -5,10 +5,10 @@ public class CompteurADAL
     Lampe UneLampe;
     CompteurADSL UnCptADSL;
 
-    public CompteurADAL(int x,int y)
+    public CompteurADAL(int Debut,int Limite)
     {
         UneLampe = new Lampe();
-        UnCptADSL = new CompteurADSL(x, y);
+        UnCptADSL = new CompteurADSL(Debut, Limite);
 
     }
 
